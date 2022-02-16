@@ -8,4 +8,4 @@ s = text
 if text == word:
     print("Access allowed")
 else:
-    print("Access allowed")
+    print("Access denied; get out of here you peasant 😒")
