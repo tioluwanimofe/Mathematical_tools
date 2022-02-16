@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+# Just a project for cruise fam :)
+<head>
+    <title>TS particles.JS</title>
+    
+    <link rel="stylesheet" href="./app.css" />
+    <style>
+        
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image:linear-gradient( #000, #000000D9);
+    height:100vh;
+    width:100%;
+}
+#tsparticles {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+}
+mofe{
+    background-color: white;
+}        
+    </style>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.18.11/tsparticles.min.js"> </script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css">
+</head>
+
+<body>
+    <div id="tsparticles"></div>
+
+    
+        <script>tsParticles.load("tsparticles", {
+    particles: {
+        number: {
+            value:80
+        },
+        color: {
+            value: "random",
+            animation: {
+                enable: true,
+                speed: 100,
+                sync: false
+            }
+        },
+        shape: {
+            type: "circle",
+        },
+        size: {
+            value: 5,
+            random: true,
+            animation: {
+                enable: true,
+                speed: 100,
+                minimumValue: 0.1,
+                sync: false
+            }
+        },
+        links: {
+            enable: true,
+            distance:100,
+            color: "random",
+            opacity: 0.4,
+            width: 3
+        },
+        move: {
+            enable: true,
+        },
+    },
+    interactivity: {
+        detectsOn: "canvas",
+        events: {
+            onHover: {
+                enable: true,
+                mode: "repulse"
+            },
+            onClick: {
+                enable: true,
+                mode: "repulse"
+            },
+            resize: true
+        },
+        modes: {
+            grab: {
+                distance:400,
+                links: {
+                    opacity: 1
+                }
+            },
+            bubble: {
+                distance:400,
+                size:2,
+                duration: 2,
+                opacity: 0.8
+            },
+            repulse: {
+                distance:170
+            },
+            push: {
+                quantity: 4
+            },
+            remove: {
+                quantity: 2
+            }
+        }
+    },
+    detectRetina: true,
+});</script>
+
+</div>    </body>
+
+</html>
