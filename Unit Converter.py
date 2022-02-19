@@ -1,6 +1,6 @@
 # Code to look for the specific units in whatever text is inputted so that the program would run
 # whatever code assigned to that unit
-print("This is a product of BOTS of tommorrow, which is solely owned by Adesanya Tioluwanimofe." \n " Do ensure to endorse the code. Thank you")
+print("This is a product of BOTS of tommorrow, which is solely owned by Adesanya Tioluwanimofe." \n "Do ensure to endorse the code. Thank you")
 print("Please first enter the unit to be converted from then enter the unit to be converted to")
 print("Use \n cm- Centimeter \n m- Meter \n c- Celsius \n f- Fahrenheit \n d- USD dollar \n n- Naira")
 
