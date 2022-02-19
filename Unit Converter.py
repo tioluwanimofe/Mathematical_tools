@@ -1,6 +1,6 @@
 # Code to look for the specific units in whatever text is inputted so that the program would run
 # whatever code assigned to that unit
-print("Input the numerical values")
+print("This is a product of BOTS of tommorrow, which is solely owned by Adesanya Tioluwanimofe." \n " Do ensure to endorse the code. Thank you")
 print("Please first enter the unit to be converted from then enter the unit to be converted to")
 print("Use \n cm- Centimeter \n m- Meter \n c- Celsius \n f- Fahrenheit \n d- USD dollar \n n- Naira")
 
@@ -19,7 +19,10 @@ def temperature():
 
 def temperature1():
     fahrenheit = int(input())
-    print("Mofe is the boss")
+    c = fahrenheit - 32
+    e = c * 5
+    s = e / 9
+    print(s)
 
 
 # For updated version, pip a currency library that will continuously import the current currency value
@@ -51,6 +54,7 @@ def length():
     print(e)
 
 
+# Algorithm to check for the option picked
 if Unit1 == "c" and Unit2 == "f":
     temperature()
 elif Unit1 == "f" and Unit2 == "c":
@@ -60,6 +64,6 @@ elif Unit1 == "cm" and Unit2 == "m":
 elif Unit1 == "m" and Unit2 == "cm":
     length()
 elif Unit1 == "d" and Unit2 == "m":
-    currency()
-elif check == "n" and unit2 == "d":
     currency1()
+elif Unit1 == "n" and Unit2 == "d":
+    currency()
